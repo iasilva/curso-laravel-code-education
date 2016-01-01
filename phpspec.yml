@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: drikaCommerce
+        psr4_prefix: drikaCommerce
         src_path: app

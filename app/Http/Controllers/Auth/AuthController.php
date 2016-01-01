@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace drikaCommerce\Http\Controllers\Auth;
 
-use App\User;
+use drikaCommerce\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use drikaCommerce\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

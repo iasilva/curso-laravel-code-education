@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace drikaCommerce\Jobs;
 
 use Illuminate\Bus\Queueable;
 
