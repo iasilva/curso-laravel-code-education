@@ -1,6 +1,6 @@
 <?php
 
-namespace drikaCommerce\Http\Middleware;
+namespace CodeCommerce\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

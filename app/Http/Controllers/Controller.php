@@ -1,6 +1,6 @@
 <?php
 
-namespace drikaCommerce\Http\Controllers;
+namespace CodeCommerce\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
@@ -11,3 +11,4 @@ abstract class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
+

@@ -1,6 +1,6 @@
 <?php
 
-namespace drikaCommerce\Providers;
+namespace CodeCommerce\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

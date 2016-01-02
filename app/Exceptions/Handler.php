@@ -1,6 +1,6 @@
 <?php
 
-namespace drikaCommerce\Exceptions;
+namespace CodeCommerce\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

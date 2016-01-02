@@ -140,10 +140,10 @@ return [
         /*
          * Application Service Providers...
          */
-        drikaCommerce\Providers\AppServiceProvider::class,
-        drikaCommerce\Providers\AuthServiceProvider::class,
-        drikaCommerce\Providers\EventServiceProvider::class,
-        drikaCommerce\Providers\RouteServiceProvider::class,
+        CodeCommerce\Providers\AppServiceProvider::class,
+        CodeCommerce\Providers\AuthServiceProvider::class,
+        CodeCommerce\Providers\EventServiceProvider::class,
+        CodeCommerce\Providers\RouteServiceProvider::class,
 
     ],
 

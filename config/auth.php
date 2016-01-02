@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => drikaCommerce\User::class,
+    'model' => CodeCommerce\User::class,
 
     /*
     |--------------------------------------------------------------------------

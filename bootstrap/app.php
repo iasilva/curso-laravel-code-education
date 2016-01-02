@@ -28,17 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    drikaCommerce\Http\Kernel::class
+    CodeCommerce\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    drikaCommerce\Console\Kernel::class
+    CodeCommerce\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    drikaCommerce\Exceptions\Handler::class
+    CodeCommerce\Exceptions\Handler::class
 );
 
 /*

@@ -1,6 +1,6 @@
 <?php
 
-namespace drikaCommerce\Http\Requests;
+namespace CodeCommerce\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

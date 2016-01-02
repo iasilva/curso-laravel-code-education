@@ -1,6 +1,6 @@
 <?php
 
-namespace drikaCommerce\Events;
+namespace CodeCommerce\Events;
 
 abstract class Event
 {

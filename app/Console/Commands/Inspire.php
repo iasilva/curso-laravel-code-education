@@ -1,6 +1,6 @@
 <?php
 
-namespace drikaCommerce\Console\Commands;
+namespace CodeCommerce\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;
