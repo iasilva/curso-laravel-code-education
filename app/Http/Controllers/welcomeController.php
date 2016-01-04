@@ -2,6 +2,7 @@
 
 namespace CodeCommerce\Http\Controllers;
 
+use CodeCommerce\Category;
 use Illuminate\Http\Request;
 
 use CodeCommerce\Http\Requests;
@@ -9,21 +10,20 @@ use CodeCommerce\Http\Controllers\Controller;
 
 class welcomeController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
+    public function __construct()
+    {
+
+    }
+
     public function index()
     {
         //
     }
-    public function exemplo()
+    public function categorias()
     {
-        $nome="Ivan";
-        $sobrenome="Alves da Silva";
-       // return view('exemplo',['nome'=>$nome,'sobrenome'=>$sobrenome]);
-        return view('exemplo',compact('nome','sobrenome'));
+        $categories=$this->categories->all();
+        return view('exemplo',compact('categories'));
     }
 
 

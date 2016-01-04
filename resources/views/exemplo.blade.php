@@ -1,2 +1,4 @@
 <h1>Exemplo</h1>
-<p>Olá Mr. {{$nome}} {{@$sobrenome}}</p>
+@foreach($categories as $category)
+    <li>{{$category->name}}</li>
+@endforeach
