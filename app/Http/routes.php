@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('categorias','welcomeController@categorias');
 Route::get('admin/categories','AdminCategoriesController@index');
 Route::get('admin/products','AdminProductsController@index');
+Route::get('testando','AdminCategoriesController@teste');
+Route::get('teste2/{id}/{name}',function($id,$name){
+   echo "Id is $id and name is $name";
+});

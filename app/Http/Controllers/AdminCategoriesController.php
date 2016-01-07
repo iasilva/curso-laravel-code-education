@@ -103,4 +103,11 @@ class AdminCategoriesController extends Controller
     {
         //
     }
+
+    public function teste()
+    {
+        echo "Método exclusivo para teste do desenvolvedor@";
+
+    }
+
 }
